@@ -135,7 +135,7 @@ const Blog = () => {
           <div className="flex grid grid-cols-2 gap-4">
             <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 font-dm w-60 text-white">
               {languages.map((language, index) => (
-                <div>
+                <div key={index}>
                   <button
                     onClick={() => clickButton(language.key)}
                     type="button"

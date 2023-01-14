@@ -132,7 +132,7 @@ const Skills = () => {
           </h2>
           <div className="mb-8 text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4 grid grid-cols-2">
             {languages.map((language, index) => (
-              <div className="w-52">
+              <div key={index} className="w-52">
                 <button
                   onClick={() => clickButton(language.key)}
                   type="button"

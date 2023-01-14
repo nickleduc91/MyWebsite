@@ -13,7 +13,7 @@ const Index = () => {
         <title>Nicholas Leduc</title>
         <link rel="icon" href="/images/myImage.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&family=Lora:wght@700&display=swap"
           rel="stylesheet"
