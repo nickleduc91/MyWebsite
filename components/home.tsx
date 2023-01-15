@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import Image from 'next/image'
 import myImage from '../public/images/myImage.jpg'
-import Bubbles from '../public/images/bubbles.svg'
+import Wave from '../public/images/pattern.svg'
 
 const navigation = [
   { name: 'Product', href: '#' },

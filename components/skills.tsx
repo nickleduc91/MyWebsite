@@ -138,9 +138,9 @@ const Skills = () => {
                   type="button"
                   className={classNames(
                     selectedItem === language.key
-                      ? 'bg-indigo-600 text-white cursor-pointer'
-                      : 'hover:rounded-xl hover:bg-gray-600 hover:text-gray-300 focus:outline-none focus:ring-0 focus:bg-gray-900 focus:text-gray-600 transition cursor-pointer',
-                    'rounded-xl text-left px-6 py-2 border-gray-200 w-full font-normal',
+                      ? 'animate-wiggle bg-indigo-600 text-white cursor-pointer'
+                      : 'hover:rounded-xl hover:bg-gray-600 hover:text-gray-300 focus:outline-none transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300',
+                    'rounded-xl text-left px-6 py-2 border-gray-200 w-full',
                   )}
                 >
                   {language.name}
