@@ -61,9 +61,13 @@ const socials = [
   },
   {
     name: 'GitHub',
-    href: '',
+    href: 'https://github.com/nickleduc91',
     icon: 'ri-github-fill ri-xl mt-1 text-indigo-600',
   },
+  {
+    name: '(613)-252-3412',
+    icon: 'ri-phone-line ri-xl mt-1 text-indigo-600'
+  }
 ]
 
 function classNames(...classes: string[]) {
