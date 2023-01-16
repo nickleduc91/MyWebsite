@@ -3,7 +3,7 @@ import CarletonPic from '../public/images/carleton.png'
 
 const Education = () => {
   return (
-    <section className="bg-black pb-72 pt-24" id="education">
+    <section className="bg-black pb-96 pt-24" id="education">
       <div className="gap-16 items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-4 lg:py-10 lg:px-6">
         <div className="font-light text-gray-800 sm:text-lg col-span-3">
           <h2 className="border-t-2 w-48 border-indigo-600 pb-12 text-4xl tracking-tight font-bold text-white">

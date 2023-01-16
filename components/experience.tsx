@@ -5,7 +5,7 @@ import quadC from '../public/images/quadCPic.png'
 const Experience = () => {
   return (
     <section className="pt-32 bg-black pb-24 " id="experience">
-      <div className="grid grid-cols-3 items-center px-4 mx-auto max-w-screen-xl">
+      <div className="md:grid md:grid-cols-3 items-center px-4 mx-auto max-w-screen-xl">
         <div className="items-center px-4 mx-auto max-w-screen-xl lg:px-6 col-span-2">
           <div className="font-light text-gray-800 sm:text-lg">
             <h2 className="border-t-2 w-48 border-indigo-600 pb-12 text-4xl tracking-tight font-bold text-white">
@@ -72,7 +72,7 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        <div className="pl-16 col-start-3">
+        <div className="hidden md:flex pl-16 col-start-3">
           <Image
             className="rounded-full"
             src={myImage}
@@ -80,8 +80,8 @@ const Experience = () => {
           />
         </div>
       </div>
-      <div className="pt-12 grid grid-cols-3 items-center px-4 mx-auto max-w-screen-xl lg:px-6">
-        <div className="col-span-1">
+      <div className="pt-12 md:grid md:grid-cols-3 items-center px-4 mx-auto max-w-screen-xl lg:px-6">
+        <div className="hidden md:flex col-span-1">
           <Image
             className="rounded-3xl"
             src={quadC}
@@ -90,7 +90,7 @@ const Experience = () => {
             height={300}
           ></Image>
         </div>
-        <div className="col-span-2 font-light text-gray-800 sm:text-lg pl-12">
+        <div className="col-span-2 font-light text-gray-800 sm:text-lg md:pl-12">
           <div className="mb-12 rounded-lg text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
             <span className="text-indigo-600 text-3xl">QuadC</span>, Front-End
             Web Development <br></br>Skills Used:{' '}

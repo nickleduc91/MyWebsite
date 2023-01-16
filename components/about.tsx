@@ -1,3 +1,6 @@
+import codeImage from '../public/images/code.webp'
+import Image from 'next/image'
+
 const About = () => {
   return (
     <section className="bg-black pb-24 pt-24" id="about">
@@ -19,11 +22,11 @@ const About = () => {
             of course, play sports.
           </p>
         </div>
-        <div className="">
-          <img
+        <div className="hidden md:flex">
+          <Image
             className="w-full rounded-lg"
-            src="https://img.freepik.com/free-photo/top-view-unrecognizable-hacker-performing-cyberattack-night_1098-18706.jpg?w=740&t=st=1673310056~exp=1673310656~hmac=701cca00ac40ecd94048a680c794f463c910f8f31ece1ec84f1a0fedd60348f7"
-            alt="office content 1"
+            src={codeImage}
+            alt="Code image"
           />
         </div>
       </div>
