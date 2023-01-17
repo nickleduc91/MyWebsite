@@ -28,6 +28,29 @@ const socials = [
   },
 ]
 
+const tabs = [
+  {
+    name: 'Home',
+    to: 'home',
+  },
+  {
+    name: 'About Me',
+    to: 'about',
+  },
+  {
+    name: 'Skills',
+    to: 'skills',
+  },
+  {
+    name: 'Experience',
+    to: 'experience',
+  },
+  {
+    name: 'Education',
+    to: 'education',
+  },
+]
+
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
@@ -45,79 +68,36 @@ export default function index() {
 
   return (
     <header className="sticky top-0 z-50">
-      <nav className=" px-4 lg:px-6 py-2.5 bg-black pt-4">
+      <nav className=" px-4 md:px-6 py-2.5 bg-black pt-4">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-          <div className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
-            <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+          <div className="justify-between items-center w-full md:flex md:w-auto md:order-1">
+            <ul className="flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
+              <div className="hidden md:flex md:flex-row md:space-x-8 md:mt-0">
+                {tabs.map((tab) => (
+                  <li>
+                    <Link
+                      key={tab.name}
+                      to={tab.to}
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={500}
+                      className="hover:text-white text-gray-400 border-gray-400 block py-2 pr-4 pl-3 border-b-2 hover:bg-gray-50 hover:border-indigo-600 md:hover:bg-transparent md:hover:text-primary-700 md:p-0 font-dm"
+                    >
+                      {tab.name}
+                    </Link>
+                  </li>
+                ))}
+              </div>
               <li>
-                <Link
-                  to="home"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                  className="text-gray-400 border-gray-400 block py-2 pr-4 pl-3 border-b-2 hover:bg-gray-50 hover:border-indigo-600 lg:hover:bg-transparent lg:p-0 hover:text-white lg:dark:hover:bg-transparent font-dm"
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="about"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                  className="text-gray-400 border-gray-400 block py-2 pr-4 pl-3 border-b-2 hover:bg-gray-50 hover:border-indigo-600 lg:hover:bg-transparent lg:hover:text-primary-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent font-dm"
-                >
-                  About Me
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="skills"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                  className="text-gray-400 border-gray-400 block py-2 pr-4 pl-3 border-b-2 hover:bg-gray-50 hover:border-indigo-600 lg:hover:bg-transparent lg:hover:text-primary-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent font-dm"
-                >
-                  Skills
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="experience"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                  className="text-gray-400 border-gray-400 block py-2 pr-4 pl-3 border-b-2 hover:bg-gray-50 hover:border-indigo-600 lg:hover:bg-transparent lg:hover:text-primary-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent font-dm"
-                >
-                  Experience
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="education"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                  className="text-gray-400 border-gray-400 block py-2 pr-4 pl-3 border-b-2 hover:bg-gray-50 hover:border-indigo-600 lg:hover:bg-transparent lg:hover:text-primary-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent font-dm"
-                >
-                  Education
-                </Link>
-              </li>
-              <Popover.Group as="nav" className="hidden space-x-10 md:flex">
-                <li>
+                <Popover.Group as="nav" className="space-x-10 md:flex">
                   <Popover className="relative">
                     {({ open }) => (
                       <>
                         <Popover.Button
                           className={classNames(
                             open ? 'text-gray-500' : 'text-gray-700',
-                            'font-dm group inline-flex items-center rounded-md block py-2 pr-6 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700',
+                            'font-dm group inline-flex items-center rounded-md block py-2 pr-6 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-primary-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700',
                           )}
                         >
                           <span>Socials</span>
@@ -191,8 +171,8 @@ export default function index() {
                       </>
                     )}
                   </Popover>
-                </li>
-              </Popover.Group>
+                </Popover.Group>
+              </li>
             </ul>
           </div>
         </div>

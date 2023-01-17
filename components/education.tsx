@@ -3,7 +3,7 @@ import CarletonPic from '../public/images/carleton.png'
 
 const Education = () => {
   return (
-    <section className="bg-black pb-96 pt-24" id="education">
+    <section className="bg-black md:pb-80 pb-24 pt-24" id="education">
       <div className="gap-16 items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-4 lg:py-10 lg:px-6">
         <div className="font-light text-gray-800 sm:text-lg col-span-3">
           <h2 className="border-t-2 w-48 border-indigo-600 pb-12 text-4xl tracking-tight font-bold text-white">
@@ -20,7 +20,7 @@ const Education = () => {
             <span className="text-indigo-600">GPA</span>: 10.66/12 (A-)
           </p>
         </div>
-        <div className="pl-4">
+        <div className="hidden md:flex pl-4">
           <Image
             src={CarletonPic}
             alt={'Carleton U Picture'}
