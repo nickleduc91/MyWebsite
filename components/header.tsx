@@ -59,7 +59,7 @@ export default function index() {
   const [isCopied, setCopied] = useState(false)
 
   const copyToClipboard = () => {
-    copy('leducnick9@gmail.com')
+    copy('nickleduc@cmail.carleton.ca')
     setCopied(true)
     setTimeout(() => {
       setCopied(false)
@@ -82,7 +82,7 @@ export default function index() {
                       smooth={true}
                       offset={50}
                       duration={500}
-                      className="hover:text-white text-gray-400 border-gray-400 block py-2 pr-4 pl-3 border-b-2 hover:bg-gray-50 hover:border-indigo-600 md:hover:bg-transparent md:hover:text-primary-700 md:p-0 font-dm"
+                      className="cursor-pointer hover:text-white text-gray-400 border-gray-400 block py-2 pr-4 pl-3 border-b-2 hover:bg-gray-50 hover:border-indigo-600 md:hover:bg-transparent md:hover:text-primary-700 md:p-0 font-dm"
                     >
                       {tab.name}
                     </Link>
@@ -143,7 +143,7 @@ export default function index() {
                                 <a
                                   className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-200"
                                   onClick={copyToClipboard}
-                                  href="mailto:leducnick9@gmail.com"
+                                  href="mailto:nickleduc@cmail.carleton.ca"
                                 >
                                   <i
                                     className="ri-mail-send-line ri-xl mt-1 text-indigo-600"
@@ -152,7 +152,7 @@ export default function index() {
 
                                   <div className="ml-4">
                                     <p className="text-base font-medium text-gray-900">
-                                      leducnick9@gmail.com
+                                    nickleduc@cmail.carleton.ca
                                     </p>
                                     <p
                                       className={classNames(
