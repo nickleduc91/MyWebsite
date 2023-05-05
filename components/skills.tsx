@@ -111,6 +111,114 @@ const languages = [
     ),
     key: 7,
   },
+  {
+    name: 'REST APIs',
+    description: (
+      <div className="font-dm text-gray-400">
+        {' '}
+        Within my second co-op work term, I got a large understanding and
+        practice of using and creating{' '}
+        <span className="text-indigo-600">REST API</span> functions. I created
+        these in order to{' '}
+        <span className="text-indigo-600">dynamically fetch</span> data to
+        display on the front-end of some of{' '}
+        <span className="text-indigo-600">TutorOcean's</span> web pages.
+      </div>
+    ),
+    key: 8,
+  },
+
+  {
+    name: 'C++',
+    description: (
+      <div className="font-dm text-gray-400">
+        {' '}
+        I learned this language in my third year of studies at{' '}
+        <span className="text-indigo-600">Carleton University</span> and I
+        picked it up really quickly. Used this language to create various
+        <span className="text-indigo-600"> object-oriented</span> programs which
+        utilized <span className="text-indigo-600">inheritance</span> in order
+        to create <span className="text-indigo-600">robust</span> and{' '}
+        <span className="text-indigo-600">polymorhic</span> code.
+      </div>
+    ),
+    key: 9,
+  },
+
+  {
+    name: 'React.js',
+    description: (
+      <div className="font-dm text-gray-400">
+        {' '}
+        Applied this framework in order to{' '}
+        <span className="text-indigo-600">fix bugs</span> and create
+        <span className="text-indigo-600"> enhancements/features</span> on the
+        front-end web applications. I applied this skill during my time at{' '}
+        <span className="text-indigo-600">QuadC</span> and{' '}
+        <span className="text-indigo-600">TutorOcean</span>. Along side this, I
+        used
+        <span className="text-indigo-600"> React</span> in order to create this
+        very <span className="text-indigo-600">website</span>!
+      </div>
+    ),
+    key: 10,
+  },
+
+  {
+    name: 'Next.js',
+    description: (
+      <div className="font-dm text-gray-400">
+        {' '}
+        Created web pages using this{' '}
+        <span className="text-indigo-600">React Framework</span> in order to
+        increase page
+        <span className="text-indigo-600"> speed</span> and{' '}
+        <span className="text-indigo-600">performace</span> by utilizing{' '}
+        <span className="text-indigo-600">server-side rendering</span>. In
+        particular, I did this during my time at{' '}
+        <span className="text-indigo-600">TutorOcean</span> and helped to
+        drastically increase their <span className="text-indigo-600">SEO</span>{' '}
+        score on a variety of web pages.
+      </div>
+    ),
+    key: 11,
+  },
+
+  {
+    name: 'Robot Framework',
+    description: (
+      <div className="font-dm text-gray-400">
+        {' '}
+        Utilized <span className="text-indigo-600">Robot Framework</span> to
+        write and update <span className="text-indigo-600">test cases</span> in
+        order to find and locate different{' '}
+        <span className="text-indigo-600">bugs</span> within both,{' '}
+        <span className="text-indigo-600">TutorOcean</span> and{' '}
+        <span className="text-indigo-600">QuadC</span>'s product. Ran various
+        <span className="text-indigo-600"> regression</span> tests to confirm
+        that a recent program or code change did not
+        <span className="text-indigo-600"> adversely effect</span> existing
+        features.
+      </div>
+    ),
+    key: 12,
+  },
+
+  {
+    name: 'Git',
+    description: (
+      <div className="font-dm text-gray-400">
+        {' '}
+        Gained vast amounts of knowledge in{' '}
+        <span className="text-indigo-600">team-oriented</span> programming by
+        using different <span className="text-indigo-600">Git</span>{' '}
+        repositories such as <span className="text-indigo-600">GitHub</span> and{' '}
+        <span className="text-indigo-600">GitLab</span> to share and merge code
+        within <span className="text-indigo-600">branches</span>.
+      </div>
+    ),
+    key: 13,
+  },
 ]
 
 function classNames(...classes: string[]) {
@@ -132,7 +240,7 @@ const Skills = () => {
           </h2>
           <div className="mb-8 text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4 grid grid-cols-2">
             {languages.map((language, index) => (
-              <div key={index} className="md:w-52 ">
+              <div key={index} className="md:w-72 ">
                 <button
                   onClick={() => clickButton(language.key)}
                   type="button"

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import myImage from '../public/images/tutor.jpg'
 import quadC from '../public/images/quadCPic.png'
+import hoc from '../public/images/hoc-logo.webp'
 
 const Experience = () => {
   return (
@@ -111,6 +112,32 @@ const Experience = () => {
               <li>Styled them using CSS</li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div className="pt-12 md:grid md:grid-cols-3 items-center px-4 mx-auto max-w-screen-xl">
+        <div className="items-center px-4 mx-auto max-w-screen-xl lg:px-6 col-span-2">
+          <div className="font-light text-gray-800 sm:text-lg">
+            <div className="mb-12 rounded-lg text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
+              <span className="text-indigo-600 text-3xl">House of Commons</span>
+              , Test Automation Development <br></br>Skills Used:{' '}
+              <span className="text-xl">
+                <span className="text-indigo-600">To Be Determined</span>,{' '}
+              </span>
+              <ul className="pl-12 text-xl list-disc">
+                <li>
+                  Test and develop code to ensure the Lenel Onguard system is
+                  working appropriately
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="hidden md:flex pl-16 col-start-3">
+          <Image
+            className="rounded-full"
+            src={hoc}
+            alt={'House of Commons Picture'}
+          />
         </div>
       </div>
     </section>

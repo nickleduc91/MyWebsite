@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import myImage from '../public/images/myImage.jpg'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const Home = () => {
   return (
@@ -22,8 +23,25 @@ const Home = () => {
                 </h1>
                 <p className="mt-6 md:text-xl text-lg leading-8 text-gray-400 text-center font-dm max-w-lg">
                   A computer science student at Carleton University passionate
-                  about front and back end development.
+                  about front and back-end development.
                 </p>
+                <p className="mt-6 md:text-xl text-lg leading-8 text-gray-400 text-center font-dm max-w-lg">
+                  Don't be afraid to take a scroll!
+                </p>
+                <div className="animate-bounce  -mt-4 pt-24 flex flex-col items-center justify-center">
+                  <ChevronDownIcon
+                    className="animate-pulse text-indigo-600 h-24 w-24 items-center"
+                    aria-hidden="true"
+                  />
+                  <ChevronDownIcon
+                    className="animate-pulse -mt-20 text-indigo-600 h-32 w-32 items-center"
+                    aria-hidden="true"
+                  />
+                  <ChevronDownIcon
+                    className="animate-pulse -mt-28 text-indigo-600 h-40 w-40 items-center"
+                    aria-hidden="true"
+                  />
+                </div>
               </div>
             </div>
             <div className="flex justify-center">

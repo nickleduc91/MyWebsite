@@ -49,6 +49,10 @@ const tabs = [
     name: 'Education',
     to: 'education',
   },
+  {
+    name: 'Projects',
+    to: 'projects',
+  },
 ]
 
 function classNames(...classes: string[]) {
@@ -104,7 +108,7 @@ export default function index() {
                           <ChevronDownIcon
                             className={classNames(
                               open ? 'text-indigo-600' : 'text-gray-400',
-                              'ml-2 h-5 w-5 group-hover:text-indigo-500',
+                              'h-5 w-5 group-hover:text-indigo-500',
                             )}
                             aria-hidden="true"
                           />
@@ -152,7 +156,7 @@ export default function index() {
 
                                   <div className="ml-4">
                                     <p className="text-base font-medium text-gray-900">
-                                    nickleduc@cmail.carleton.ca
+                                      nickleduc@cmail.carleton.ca
                                     </p>
                                     <p
                                       className={classNames(
