@@ -3,7 +3,7 @@ import myImage from '../public/images/list.png'
 
 const Projects = () => {
   return (
-    <section className="pt-24 bg-black pb-24 " id="projects">
+    <section className="pt-32 bg-black pb-24 " id="projects">
       <div className="md:grid md:grid-cols-3 items-center px-4 mx-auto max-w-screen-xl">
         <div className="items-center px-4 mx-auto max-w-screen-xl lg:px-6 col-span-2">
           <div className="font-light text-gray-800 sm:text-lg">
