@@ -257,7 +257,7 @@ const Skills = () => {
             ))}
           </div>
         </div>
-        <div className='border-t-2 border-indigo-600 w-1/2 mx-auto mt-12'></div>
+        <div className='border-t-2 border-indigo-600 w-1/2 mx-auto my-12'></div>
         <div className="text-2xl col-span-2 rounded-2xl bg-gray-900 py-4 px-4 mt-12">
           {languages[selectedItem].description}
         </div>

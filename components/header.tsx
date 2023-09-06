@@ -78,9 +78,8 @@ export default function index() {
             <ul className="flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
               <div className="hidden md:flex md:flex-row md:space-x-8 md:mt-0">
                 {tabs.map((tab) => (
-                  <li>
+                  <li key={tab.name}>
                     <Link
-                      key={tab.name}
                       to={tab.to}
                       spy={true}
                       smooth={true}

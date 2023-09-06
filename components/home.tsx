@@ -12,7 +12,8 @@ const Home = () => {
               <Image
                 className="hidden md:flex w-72 h-72 rounded-full"
                 src={myImage}
-                alt={''}
+                alt={'me'}
+                priority
               />
               <div className="items-center justify-center">
                 <h1 className="md:text-4xl font-bold tracking-tight text-center text-3xl text-gray-400">

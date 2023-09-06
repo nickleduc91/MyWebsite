@@ -4,7 +4,7 @@ import CarletonPic from '../public/images/carleton.png'
 const Education = () => {
   return (
     <section className="bg-black pt-24 pb-24" id="education">
-      <div className=" px-4 mx-auto max-w-screen-xl lg:py-10 lg:px-6">
+      <div className="px-4 mx-auto max-w-screen-xl lg:py-10 lg:px-6">
         <div className="font-light text-gray-800 sm:text-lg col-span-3">
           <h2 className="border-t-2 w-48 border-indigo-600 pb-12 text-4xl tracking-tight font-bold text-white">
             Education
@@ -16,20 +16,18 @@ const Education = () => {
             engineering stream. I have already completed 3 co-op work terms for
             a total of 12 months of experience in the work force.
           </p>
-          <div className="lg:grid grid-cols-2 flex items-center">
-            <div>
-              <p className="w-80 mb-6 text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
-                <span className="text-indigo-600">CGPA</span>: 11.21/12 (A)
+          <div className="lg:grid grid-cols-3">
+            <p className="w-80 mb-12  text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
+              <span className="text-indigo-600">GPA</span>: 11.21/12 (A)
+            </p>
+            <p className="w-80 mb-12  text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
+              <span className="text-indigo-600">GPA</span>: 10.71/12 (A-)
+            </p>
+            <p className="w-80 mb-12  text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
+                <span className="text-indigo-600">Expected Graduation</span>: April 2025
               </p>
-              <p className="w-80 mb-12  text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
-                <span className="text-indigo-600">GPA</span>: 10.71/12 (A-)
-              </p>
-              <p className="w-80 mb-12 text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
-                <span className="text-indigo-600">Expected Graduation</span>:
-                April 2025
-              </p>
-            </div>
-            <div className="hidden md:flex pl-4">
+          </div>
+          <div className="hidden md:flex justify-center">
               <Image
                 src={CarletonPic}
                 alt={'Carleton U Picture'}
@@ -37,7 +35,6 @@ const Education = () => {
                 height={270}
               />
             </div>
-          </div>
         </div>
       </div>
     </section>
