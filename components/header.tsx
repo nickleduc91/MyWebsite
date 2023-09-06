@@ -86,7 +86,7 @@ export default function index() {
                       smooth={true}
                       offset={50}
                       duration={500}
-                      className="cursor-pointer hover:text-white text-gray-400 border-gray-400 block py-2 pr-4 pl-3 border-b-2 hover:bg-gray-50 hover:border-indigo-600 md:hover:bg-transparent md:hover:text-primary-700 md:p-0 font-dm"
+                      className="text-xl cursor-pointer hover:text-white text-gray-400 border-gray-400 block py-2 pr-4 pl-3 border-b-2 hover:bg-gray-50 hover:border-indigo-600 md:hover:bg-transparent md:hover:text-primary-700 md:p-0 font-dm"
                     >
                       {tab.name}
                     </Link>
@@ -101,7 +101,7 @@ export default function index() {
                         <Popover.Button
                           className={classNames(
                             open ? 'text-gray-500' : 'text-gray-700',
-                            'font-dm group inline-flex items-center rounded-md block py-2 pr-6 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-primary-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700',
+                            'font-dm group inline-flex items-center rounded-md py-2 pr-6 pl-3 text-xl text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-primary-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700',
                           )}
                         >
                           <span>Socials</span>

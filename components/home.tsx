@@ -15,7 +15,7 @@ const Home = () => {
                 alt={''}
               />
               <div className="items-center justify-center">
-                <h1 className="md:text-4xl text-3xl font-bold tracking-tight text-center text-3xl text-gray-400">
+                <h1 className="md:text-4xl font-bold tracking-tight text-center text-3xl text-gray-400">
                   Hey there! I'm,
                 </h1>
                 <h1 className="md:text-5xl text-4xl font-bold tracking-tight text-center smtext-6xl text-indigo-600">

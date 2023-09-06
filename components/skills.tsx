@@ -233,12 +233,12 @@ const Skills = () => {
 
   return (
     <section className="pt-24 bg-black pb-24" id="skills">
-      <div className="gap-16 items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-5 lg:py-10 lg:px-6">
-        <div className="font-light text-gray-800 sm:text-lg col-span-3">
+      <div className="items-center px-4 mx-auto max-w-screen-xl lg:py-10 lg:px-6">
+        <div className="font-light text-gray-800 sm:text-lg">
           <h2 className="border-t-2 w-32 border-indigo-600 pb-12 text-4xl tracking-tight font-bold text-white">
             Skills
           </h2>
-          <div className="mb-8 text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4 grid grid-cols-2">
+          <div className="mb-8 text-2xl font-dm text-gray-400 grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-8">
             {languages.map((language, index) => (
               <div key={index} className="md:w-72 ">
                 <button
@@ -248,7 +248,7 @@ const Skills = () => {
                     selectedItem === language.key
                       ? 'animate-wiggle bg-indigo-600 text-white cursor-pointer'
                       : 'hover:rounded-xl hover:bg-gray-600 hover:text-gray-300 focus:outline-none transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300',
-                    'rounded-xl text-left px-6 py-2 border-gray-200 w-full',
+                    'rounded-xl px-6 border-gray-200 w-full bg-gray-900 py-4 text-center',
                   )}
                 >
                   {language.name}
@@ -257,7 +257,8 @@ const Skills = () => {
             ))}
           </div>
         </div>
-        <div className="text-2xl col-span-2 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4 mt-12">
+        <div className='border-t-2 border-indigo-600 w-1/2 mx-auto mt-12'></div>
+        <div className="text-2xl col-span-2 rounded-2xl bg-gray-900 py-4 px-4 mt-12">
           {languages[selectedItem].description}
         </div>
       </div>
