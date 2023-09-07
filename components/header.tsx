@@ -82,7 +82,7 @@ export default function index() {
     <header className="sticky top-0 z-50">
       <nav className=" px-4 md:px-6 py-2.5 bg-black pt-4">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-          <div className="justify-between items-center w-full md:flex md:order-1">
+          <div className="justify-between items-center w-full md:flex md:order-1 flex flex-row">
             <ul className="w-auto flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
               <div className="hidden md:flex md:flex-row md:space-x-8 md:mt-0">
                 {tabs.map((tab) => (
@@ -185,7 +185,7 @@ export default function index() {
                 </Popover.Group>
               </li>
             </ul>
-            <div className='flex flex-row bg-indigo-600 hover:bg-indigo-500 rounded-2xl py-1.5 px-2 w-48 md:w-40 lg:w-52 '>
+            <div className='mt-3 flex flex-row bg-indigo-600 hover:bg-indigo-500 rounded-2xl py-1.5 px-2 w-48 md:w-40 lg:w-52 '>
               <button
                 onClick={saveFile}
                 className=" text-xl cursor-pointer text-gray-400 pl-3 font-dm float-right"
