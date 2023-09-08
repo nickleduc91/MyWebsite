@@ -93,7 +93,7 @@ export default function index() {
                       smooth={true}
                       offset={50}
                       duration={500}
-                      className="text-xl cursor-pointer hover:text-white text-gray-400 border-gray-400 block py-2 pr-4 pl-3 border-b-2 hover:bg-gray-50 hover:border-indigo-600 md:hover:bg-transparent md:hover:text-primary-700 md:p-0 font-dm"
+                      className="text-xl cursor-pointer hover:text-white text-gray-400 border-gray-400 block py-2 pr-4 pl-3 border-b-2 hover:border-indigo-600 hover:bg-transparent md:p-0 font-dm"
                     >
                       {tab.name}
                     </Link>
@@ -105,12 +105,7 @@ export default function index() {
                   <Popover className="relative">
                     {({ open }) => (
                       <>
-                        <Popover.Button
-                          className={classNames(
-                            open ? 'text-gray-500' : 'text-gray-700',
-                            'font-dm group inline-flex items-center rounded-md py-2 pr-6 pl-3 text-xl text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-primary-700 md:p-0',
-                          )}
-                        >
+                        <Popover.Button className="font-dm group inline-flex items-center rounded-md py-2 pr-6 pl-3 text-xl md:p-0 hover:text-white hover:bg-transparent text-gray-400">
                           <span>Socials</span>
                           <ChevronDownIcon
                             className={classNames(
@@ -185,7 +180,7 @@ export default function index() {
                 </Popover.Group>
               </li>
             </ul>
-            <div className='mt-3 flex flex-row bg-indigo-600 hover:bg-indigo-500 rounded-2xl py-1.5 px-2 w-48 md:w-40 lg:w-52 '>
+            <div className="mt-3 flex flex-row bg-indigo-600 hover:bg-indigo-500 rounded-2xl py-1.5 px-2 w-48 md:w-40 lg:w-52 ">
               <button
                 onClick={saveFile}
                 className=" text-xl cursor-pointer text-gray-400 pl-3 font-dm float-right"
