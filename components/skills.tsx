@@ -97,7 +97,7 @@ const Skills = () => {
           <h2 className="border-t-2 w-32 border-indigo-600 pb-12 text-4xl tracking-tight font-bold text-white">
             Skills
           </h2>
-          <div className="mb-8 text-2xl font-dm text-gray-400 grid grid-cols-1 lg:grid-cols-4 gap-3 lg:gap-8">
+          <div className="mb-12 text-2xl font-dm text-gray-400 grid grid-cols-1 lg:grid-cols-4 gap-3 lg:gap-8">
             {languages.map((language, index) => (
               <div key={index} className="md:w-72 ">
                 <button
@@ -117,7 +117,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="border-t-2 border-indigo-600 w-1/2 mx-auto my-12"></div>
-        <div className=" grid-cols-1 lg:grid lg:grid-cols-3 lg:gap-4 text-2xl rounded-2xl py-4 px-4 mt-12 text-white ">
+        <div className="grid-cols-1 lg:grid lg:grid-cols-3 lg:gap-4 text-2xl rounded-2xl py-4 px-4 mt-12 text-white ">
           {languages[selectedItem].skills.map((skill, index) => (
             <div key={index} className="rounded-2xl border-gray-200 lg:w-2/3 lg:mx-auto lg:my-auto my-3 bg-gray-900 py-4 text-center text-indigo-600 ">
               <p>{skill}</p>
