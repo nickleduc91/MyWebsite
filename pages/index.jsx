@@ -13,14 +13,17 @@ const Index = () => {
     <div>
       <Head>
         <title>Nicholas Leduc - Personal Website</title>
-        <link rel="icon" href="/images/myImageResized2.jpg" />
+        <link rel="icon" href="/images/myImageResized.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&family=Lora:wght@700&display=swap"
           rel="stylesheet"
         ></link>
-        <meta name="google-site-verification" content="zjpbTDtoVskaGkpSU8Z80QKLGvfL7sAQ5zZ-XEj4Y5E" />
+        <meta
+          name="google-site-verification"
+          content="zjpbTDtoVskaGkpSU8Z80QKLGvfL7sAQ5zZ-XEj4Y5E"
+        />
         <meta
           property="og:title"
           content="Nicholas Leduc - Personal Website"
@@ -29,10 +32,7 @@ const Index = () => {
           name="description"
           content="Welcome to my digital space! Explore my professional journey, skills, and achievements!"
         />
-        <meta
-          property="og:url"
-          content="https://nickleduc.vercel.app/"
-        ></meta>
+        <meta property="og:url" content="https://nickleduc.vercel.app/"></meta>
         <meta
           property="og:description"
           content="Welcome to my digital space! Explore my professional journey, skills, and achievements"

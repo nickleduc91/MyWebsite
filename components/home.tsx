@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import myImage from '../public/images/myImageResized2.jpg'
+import myImage from '../public/images/myImageResized.jpg'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const Home = () => {
