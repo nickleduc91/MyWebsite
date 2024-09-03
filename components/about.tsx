@@ -10,16 +10,16 @@ const About = () => {
             About me
           </h2>
           <p className="mb-12 rounded-lg text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
-            Hey thanks for visiting my website, let me tell you a little about
-            myself. I am in the midst of my third year at{' '}
-            <span className="text-indigo-600">Carleton University </span>
-            studying <span className="text-indigo-600">computer science</span>.
-            I am 20 years old and I absolutely love sports. From a young age, I
-            fell in love with team-oriented sports, especially{' '}
-            <span className="text-indigo-600">hockey</span>. Due to this, I love
-            to work under pressure and I thrive under a team environment. In my
-            free time, I love to work out at the gym, hangout with friends and
-            of course, play sports.
+            Welcome to my website! I'm Nick, a 21-year-old computer science
+            student currently in my fourth year at{' '}
+            <span className="text-indigo-600">Carleton University</span>. My
+            love for hockey and team-oriented activities has shaped my ability
+            to work well under pressure and excel in collaborative environments.
+            <br></br> <br></br>
+            Recently, I've also discovered a liking for tennis and pickleball!
+            When I'm not studying, I enjoy working out, spending time with
+            friends, and staying active. Thanks for stopping by to learn a bit
+            about me!
           </p>
         </div>
         <div className="hidden md:flex">

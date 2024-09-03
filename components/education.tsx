@@ -10,11 +10,11 @@ const Education = () => {
             Education
           </h2>
           <p className="mb-8 text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
-            I am Currently enrolled in my third year at{' '}
+            I am Currently enrolled in my fourth year at{' '}
             <span className="text-indigo-600">Carleton University</span>.
             Computer science is the degree I'm pursuing and I'm in the software
-            engineering stream. I have already completed 3 co-op work terms for
-            a total of 12 months of experience in the work force.
+            engineering stream. I have completed 4 co-op work terms for
+            a total of 16 months of experience in the work force.
           </p>
           <div className="lg:grid grid-cols-3">
             <p className="w-80 mb-12  text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">

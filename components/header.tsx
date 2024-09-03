@@ -14,11 +14,6 @@ const socials = [
     icon: 'ri-linkedin-box-line ri-xl mt-1 text-indigo-600',
   },
   {
-    name: 'Discord',
-    href: 'https://discordapp.com/users/526523157763325953',
-    icon: 'ri-discord-line ri-xl mt-1 text-indigo-600',
-  },
-  {
     name: 'GitHub',
     href: 'https://github.com/nickleduc91',
     icon: 'ri-github-fill ri-xl mt-1 text-indigo-600',
@@ -73,7 +68,7 @@ export default function index() {
 
   const saveFile = () => {
     saveAs(
-      'https://nickleduc.vercel.app/Nicholas_Leduc_Resume.pdf',
+      'https://nickleduc.vercel.app/Nicholas-Leduc-Resume.pdf',
       'Nicholas_Leduc_Resume.pdf',
     )
   }

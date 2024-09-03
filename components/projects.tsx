@@ -65,7 +65,7 @@ const Projects = () => {
         </div>
       </div>
       <div className='border-t-2 border-indigo-600 w-1/2 mx-auto my-12'></div>
-      <div className="pt-12 md:grid md:grid-cols-3 items-center px-4 mx-auto max-w-screen-xl lg:px-6">
+      <div className="pt-0 md:pt-12 md:grid md:grid-cols-3 items-center px-4 mx-auto max-w-screen-xl lg:px-6">
         <div className="hidden md:flex col-span-1">
           <Image
             className="rounded-3xl"

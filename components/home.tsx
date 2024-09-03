@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import myImage from '../public/images/myImage.jpg'
+import myImage from '../public/images/myImageResized2.jpg'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const Home = () => {
@@ -14,6 +14,7 @@ const Home = () => {
                 src={myImage}
                 alt={'me'}
                 priority
+                height={1000}
               />
               <div className="items-center justify-center">
                 <h1 className="md:text-4xl font-bold tracking-tight text-center text-3xl text-gray-400">
@@ -24,7 +25,7 @@ const Home = () => {
                 </h1>
                 <p className="mt-6 md:text-xl text-lg leading-8 text-gray-400 text-center font-dm max-w-lg">
                   A computer science student at Carleton University passionate
-                  about front and back-end development.
+                  about full stack web development.
                 </p>
                 <p className="mt-6 md:text-xl text-lg leading-8 text-gray-400 text-center font-dm max-w-lg">
                   Don't be afraid to take a scroll!

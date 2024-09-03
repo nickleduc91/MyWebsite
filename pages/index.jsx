@@ -13,7 +13,7 @@ const Index = () => {
     <div>
       <Head>
         <title>Nicholas Leduc - Personal Website</title>
-        <link rel="icon" href="/images/myImage.jpg" />
+        <link rel="icon" href="/images/myImageResized2.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
