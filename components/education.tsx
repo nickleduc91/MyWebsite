@@ -17,11 +17,8 @@ const Education = () => {
             a total of 16 months of experience in the work force.
           </p>
           <div className="lg:grid grid-cols-3">
-            <p className="w-80 mb-12  text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
-              <span className="text-indigo-600">GPA</span>: 11.21/12 (A)
-            </p>
-            <p className="w-80 mb-12  text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
-              <span className="text-indigo-600">GPA</span>: 10.71/12 (A-)
+            <p className="w-80 mb-12 text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
+              <span className="text-indigo-600">GPA</span>: 10.64/12 (A-)
             </p>
             <p className="w-80 mb-12  text-2xl font-dm text-gray-400 border-gray-900 rounded-2xl bg-gray-900 py-4 px-4">
                 <span className="text-indigo-600">Expected Graduation</span>: April 2025
